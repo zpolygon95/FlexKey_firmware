@@ -32,7 +32,9 @@ boards mentioned in the BoM. Refer to the Hookup Guides for the
 [Pro Micro][10] and the [nRF52832][11] for instructions.
 
 Additionally, a patch was applied to the nRF5 library variant.h file to route
-the UART interface to different pins than those used for the bootloader.
+the UART interface to different pins than those used for the bootloader. This
+file is found in the installed board definitions. For example on MacOS:
+`~/Library/Arduino15/packages/SparkFun/hardware/nRF5/0.2.3/variants/SparkFun_nRF52832_Breakout/variant.h`
 
 Initial testing was done using the [nRF Toolbox App][12], as the Bluetooth code
 used for reference was designed to work with that system.
